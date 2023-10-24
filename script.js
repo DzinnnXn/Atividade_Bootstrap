@@ -1,5 +1,5 @@
 const tabela = document.querySelector('.tabela-js')
-axios.get('https://apiaulas.thiagodev502.repl.co/funcionarios').then(function (resposta) {
+axios.get('https://apiaulas.andresilvr232.repl.co/funcionarios').then(function (resposta) {
     getData(resposta.data)
 }).catch(function (error) {
     console.log(error)
@@ -27,3 +27,4 @@ function getData(dados) {
                 `
     })
 }
+
