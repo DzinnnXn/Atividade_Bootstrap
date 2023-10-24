@@ -12,3 +12,11 @@ html::before{
     align-content: first baseline;
 }
 
+.custom-icon {
+    color: red; 
+}
+
+.custom-icon-2 {
+    color: green;
+}
+
